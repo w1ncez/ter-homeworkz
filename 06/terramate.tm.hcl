@@ -13,6 +13,6 @@ globals {
   yc_key_file = "~/.authorized_key.json"
   
   # Terraform версия
-  terraform_version = "~>1.12.0"
+  terraform_version = ">1.12.0"
 }
 
