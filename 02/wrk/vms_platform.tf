@@ -5,10 +5,12 @@ variable "vm_image_family" {
 
 # 1 VM
 
+/*
 variable "vm_web_name" {
   type    = string
   default = "netology-develop-platform-web"
 }
+*/
 
 variable "vm_web_platform_id" {
   type    = string
@@ -52,10 +54,12 @@ variable "vm_web_ssh_user" {
 
 # 2 VM
 
+/*
 variable "vm_db_name" {
   type    = string
   default = "netology-develop-platform-db"
 }
+*/
 
 variable "vm_db_platform_id" {
   type    = string
