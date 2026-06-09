@@ -3,13 +3,13 @@
 
 variable "cloud_id" {
   type        = string
-  default     = "b1gqaphc31rehpt*****"
+  default     = "b1gqaphc31rehpta****"
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/cloud/get-id"
 }
 
 variable "folder_id" {
   type        = string
-  default     = "b1go1u1uj0hvmdf*****"
+  default     = "b1go1u1uj0hvmdft****"
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/folder/get-id"
 }
 
@@ -35,55 +35,10 @@ variable "vm_web_image_family" {
   default = "ubuntu-2004-lts"
 }
 
-variable "vm_web_name" {
-  type    = string
-  default = "netology-develop-platform-web"
-}
-
-variable "vm_web_platform_id" {
-  type    = string
-  default = "standard-v3"
-}
-
-variable "vm_web_cores" {
-  type    = number
-  default = 2
-}
-
-variable "vm_web_memory" {
-  type    = number
-  default = 1
-}
-
-variable "vm_web_core_fraction" {
-  type    = number
-  default = 20
-}
-
-variable "vm_web_preemptible" {
-  type    = bool
-  default = true
-}
-
-variable "vm_web_nat" {
-  type    = bool
-  default = true
-}
-
-variable "vm_web_serial_port_enable" {
-  type    = number
-  default = 1
-}
-
-variable "vm_web_ssh_user" {
-  type    = string
-  default = "ubuntu"
-}
-
 ###ssh vars
 
 
 variable "vms_ssh_root_key" {
   type    = string
-  default = "ssh-ed25519*******"
+  default = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEMuFmpVixwtgIUoux****** root@vbox2"
 }
